@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallaufnahe I Ermittlungsportal</title>
+    <link rel="stylesheet" href="Neuer-Auftrag.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="clock.js"></script>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body onLoad="startTime()">
+    <div id="clock"></div>
+    <form action="Thank-you.html">
+        <label class="Pflicht">*</label>
+        <input type="text" placeholder="Fallname" required>
+        <br>
+        <label class="Pflicht">*</label>
+     <select name="" id="">
+         <option value="">Auswählen</option>
+         <option value="">Externer Auftraggeber</option>
+         <option value="">Interner Auftraggeber</option>
+     </select>
+     <br>
+        <label class="Pflicht">*</label>
+        <select name="Präfix" id="Präfix" required>
+            <option value="">Auswählen</option>
+            <option>Herr</option>
+            <option>Frau</option>
+        </select>
+        <label class="Pflicht">*</label> 
+        <input type="Vorname" minlength="3" maxlength="10" placeholder="Vorname" required>
+        <label class="Pflicht">*</label>
+        <input type="Nachname" minlength="6" maxlength="15" placeholder="Nachname" required>
+        <br>
+        <label class="Pflicht">*</label>
+        <input type="Straße" name="Straße" placeholder="Straße" required>
+        <input type="number" name="Hausnummer" placeholder="Hausnummer" required>
+        <br>
+        <label class="Pflicht">*</label>
+        <select name="Vorauswahl" id="" required>
+            <option value="">Auswählen</option>
+            <option>Deutschland +49</option>
+            <option>Österreich +43</option>
+            <option>Schweiz +41</option>
+            <option>Niederlande +31</option>
+            <option>Frankreich +33</option>
+            <option>Belgien +32</option>
+            <option>Luxemburg +352</option>
+            <option id="Sonstiges">Sonstiges</option>
+        </select>
+        <label class="Pflicht">*</label>
+        <input type="telefon" name="telefonnummer" placeholder="Telefonnummer" required>
+        <br>
+        <input type="email" name="Email-Adresse" placeholder="Email">
+        <br>
+        <label>Bitte Wähle die Verbrechensart:</label>
+        <label class="Pflicht">*</label>
+        <select>
+            <option value="">Auswählen</option>
+            <option>Diebstahl</option>
+            <option>Raub</option>
+            <option>Erpressung</option>
+            <option>Einbruch (Diebstahl)</option>
+        </select>
+        <br>
+        <label class="Pflicht">*</label>
+        <textarea name="" id="" cols="98" rows="10" required placeholder="Beschreibung" minlength="80"></textarea>
+        <br>
+        <input type="submit" name="Senden">
+    </form>
+    <footer>
+        <div id="fußzeile">
+            <p>©2022</p>
+            <a href="Impressum.html">Impressum</a>
+            <a href="datenschutzerklärung.html">Datenschutzerklärung </a>
+        </footer>  
+</body>
+</html>

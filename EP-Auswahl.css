@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+#fußzeile{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(86, 86, 86);
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+.button{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 8em 16em;
+    cursor: pointer;
+    background-color: white;
+    color:rgb(30, 30, 30);
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 0.5em;
+}
+button:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}

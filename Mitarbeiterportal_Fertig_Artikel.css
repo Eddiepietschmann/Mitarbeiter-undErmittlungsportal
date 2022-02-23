@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+h1{
+    color: white;
+
+}
+h2{
+    color: white;
+
+}
+p{
+    color: white;
+
+}
+#fußzeile{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(86, 86, 86);
+}
+.button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1em 2em;
+    cursor: pointer;
+    background-color: white;
+    color:rgb(30, 30, 30);
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 0.5em;
+}
+button:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+ul {
+    color: white;
+}
